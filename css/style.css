@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* css of header-section */
+
 #header-section{
     height: 63px;
    background-color:#1Ea8FF;
@@ -12,16 +14,10 @@
     align-items: center;
 }
 
-
-
 ul{
     display: flex;
     list-style-type: none;
 }
-
-ul li {
-}
-
 
 ul li a {
     text-decoration: none;
@@ -30,6 +26,8 @@ ul li a {
     font-size: 18px;
     transition: 0.3s;
 }
+
+/* hover of menu-items */
 
 ul li a:hover{
     color:rgb(253, 253, 253);
