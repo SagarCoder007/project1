@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+/* main body */
+
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
 /* css of header-section */
 
 #header-section{
@@ -12,7 +18,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
+    /* The container section */
 }
+.container{
+    position: sticky;
+    top: 0;
+}
+
 
 ul{
     display: flex;
@@ -33,6 +46,87 @@ ul li a:hover{
     color:rgb(253, 253, 253);
     background-color: rgb(26, 24, 24);
     border-radius: 10px;
+}
+
+/* landing page main section */
+
+.main{
+
+    justify-content: center;
+    align-items: center;
+     height: 100vh;
+    display: flex;
+}
+
+/* left section of the landing page */
+
+.left-sec{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin-right: 20px;
+    height: 300px;
+    box-shadow: rgb(23 43 99 / 30%) 0 6px 18px;
+}
+
+/* right section of the landing page */
+
+.right-sec{
+    display: flex;
+    height: 440px;
+    max-width: 50%;
+    box-shadow: rgb(23 43 99 / 30%) 0 6px 18px;
+    
+}
+
+/* right image section */
+
+.hero-img img{
+    width: 100%;  
+}
+
+/* left section heading */
+
+.hero-head{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+/* left section para */
+
+.hero-para{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+/* left section buttons */
+
+.btn-sec{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-btn{
+margin-right: 30px;
+padding: 20px 40px;
+border-radius: 30px;
+font-size: 14px;
+background-color: #1Ea8FF;
+color: white;
+border: none;
+cursor: pointer;
+transition: 0.3s;
+
+}
+
+/* hover of left section button */
+
+.hero-btn:hover{
+
+    background-color:#000000;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
 }
 
 
