@@ -56,6 +56,7 @@ ul li a:hover{
     align-items: center;
      height: 100vh;
     display: flex;
+    background-color: beige;
 }
 
 /* left section of the landing page */
@@ -128,6 +129,73 @@ transition: 0.3s;
     border-radius: 50px;
     color: rgb(255, 255, 255);
 }
+
+
+/* MAIN SERVICE SECTION */
+
+
+.service-head{
+    text-align: center;
+    max-width: 100%;
+    font-weight: bold;
+    font-size: 57px;
+    margin-top: 20px;
+}
+
+.services{
+height: 100vh;
+max-width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.box{
+    height: 380px;
+    width: 300px;
+    margin: 20px;
+    border: 0.5px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgb(23 43 99 / 30%) 0 6px 18px;
+}
+
+/* SERIVES IMAGES */
+
+.img1{
+    height: 169px;
+    width: 168px;
+}
+
+/* SERVICES BUTTONS */
+
+.vps-btn{
+padding: 20px 30px;
+border-radius: 30px;
+font-size: 14px;
+background-color: #1Ea8FF;
+color: white;
+border: none;
+cursor: pointer;
+transition: 0.3s;
+margin-top: 5px;
+}
+
+/*  BUTTON HOVER */
+
+.vps-btn:hover{
+    background-color:#000000;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+}
+
+
+    
+
+
 
 
 
