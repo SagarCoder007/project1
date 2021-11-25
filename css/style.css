@@ -143,14 +143,16 @@ transition: 0.3s;
 }
 
 .services{
-height: 100vh;
+height: 85vh;
 max-width: 100%;
 display: flex;
+flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 }
 
 .box{
+    border-radius: 10px;
     height: 380px;
     width: 300px;
     margin: 20px;
@@ -191,6 +193,100 @@ margin-top: 5px;
     border-radius: 50px;
     color: rgb(255, 255, 255);
 }
+
+
+/* main plan section css */
+
+
+.plans{
+    height: 110vh;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+    /* plan box css */
+    .plan-box{
+        border-radius: 10px;
+        height: 650px;
+        width: 250px;
+        margin: 20px;
+        border: 0.5px solid rgb(0, 0, 0);
+        box-shadow: rgb(23 43 99 / 30%) 0 6px 18px;
+    }
+
+
+    /* plan img css */
+    .plan-img{
+        height: 169px;
+        width: 168px;
+    }
+
+    /* plan button */
+
+    .plan-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    /* inline button css */
+
+    .buynow{
+        padding: 20px 30px;
+        border-radius: 30px;
+        font-size: 14px;
+     background-color: #1Ea8FF;
+        color: white;
+        border: none;
+cursor: pointer;
+transition: 0.3s;
+margin-top: 5px;
+    }
+
+    /*inline button hover */
+
+    .buynow:hover{
+        background-color:#000000;
+        border-radius: 50px;
+        color: rgb(255, 255, 255);
+    }
+
+    
+
+    .head-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .head-logo h3{
+        font-size: 25px;
+        color: #1Ea8FF;
+    }
+
+    .head-logo span{
+        font-size: 30px;
+        color: #1Ea8FF;
+        font-weight: bold;
+    }
+
+
+
+.plan-para{
+    margin-left: 10px;
+}
+
+.plan-para span {
+  color: #1Ea8FF;
+}
+
 
 
     
