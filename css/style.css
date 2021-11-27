@@ -289,6 +289,52 @@ margin-top: 5px;
 
 
 
+.avatar{
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-bottom: 5px;
+}
+
+
+.get-touch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #1Ea8FF;
+}
+
+
+.get-btn{
+    padding: 20px 30px;
+        border-radius: 30px;
+        font-size: 14px;
+     background-color: black;
+        color: white;
+        border: none;
+cursor: pointer;
+transition: 0.3s;
+margin-top: 5px;
+}
+
+.get-btn:hover{
+    background-color:white;
+    border-radius: 50px;
+    color: #000;
+}
+
+.get-para{
+
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
     
 
 
