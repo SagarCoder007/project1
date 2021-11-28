@@ -13,11 +13,13 @@ body{
 /* css of header-section */
 
 #header-section{
-    height: 63px;
+   height: 60px;
+   max-width: 100%;
    background-color:#1Ea8FF;
     display: flex;
     justify-content: space-around;
     align-items: center;
+   
     
     /* The container section */
 }
@@ -27,9 +29,11 @@ body{
 }
 
 
+
 ul{
     display: flex;
     list-style-type: none;
+   
 }
 
 ul li a {
@@ -54,9 +58,11 @@ ul li a:hover{
 
     justify-content: center;
     align-items: center;
-     height: 100vh;
+  height: 100vh;
+     width:100%;
+     flex-wrap: wrap;
     display: flex;
-    background-color: beige;
+    background-image: linear-gradient(to right, #ee9ca7 0%,  #ffdde1 50%, #ee9ca7 100%);
 }
 
 /* left section of the landing page */
@@ -65,27 +71,19 @@ ul li a:hover{
     justify-content: center;
     display: flex;
     flex-direction: column;
-    max-width: 50%;
-    margin-right: 20px;
-    height: 300px;
+    max-width:100%;
+    margin-bottom: 100px;
+     max-height:100%;
     box-shadow: rgb(23 43 99 / 30%) 0 6px 18px;
 }
 
 /* right section of the landing page */
 
-.right-sec{
-    display: flex;
-    height: 440px;
-    max-width: 50%;
-    box-shadow: rgb(23 43 99 / 30%) 0 6px 18px;
-    
-}
+
 
 /* right image section */
 
-.hero-img img{
-    width: 100%;  
-}
+
 
 /* left section heading */
 
@@ -139,12 +137,13 @@ transition: 0.3s;
     max-width: 100%;
     font-weight: bold;
     font-size: 57px;
-    margin-top: 20px;
+    padding: 15px 15px;
 }
 
 .services{
-height: 85vh;
-max-width: 100%;
+max-height: 100%;
+background-color: yellow;
+width:100%;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
@@ -199,8 +198,8 @@ margin-top: 5px;
 
 
 .plans{
-    height: 110vh;
-    max-width: 100%;
+    max-height:100%;
+   max-width:100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -289,6 +288,7 @@ margin-top: 5px;
 
 
 
+
 .avatar{
     border-radius: 50%;
     border: 2px solid white;
@@ -300,7 +300,9 @@ margin-top: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+   max-height:100%;
+   max-width:100%;
+    margin-top: 20px;
     flex-wrap: wrap;
     flex-direction: column;
     background-color: #1Ea8FF;
@@ -331,6 +333,35 @@ margin-top: 5px;
     font-size: 30px;
     font-weight: bold;
 }
+
+
+
+.about-page{
+    background-color: burlywood;
+    max-height:100%;
+   max-width:100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+    
+}
+
+.about-box{
+
+    background-color: aquamarine;
+    border-radius: 10px;
+    height: 200px;
+    max-width: 100%;
+    margin: 20px;
+    border: 0.5px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 
 
 
