@@ -466,3 +466,8 @@ align-items: top;
 
 } 
 
+@media(max-width:768px){
+				.left-sec{
+								margin-left: 20px;
+				}
+}
