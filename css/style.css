@@ -337,30 +337,87 @@ margin-top: 5px;
 
 
 .about-page{
-    background-color: burlywood;
+    background-color: #1Ea8FF;
+    margin-top: 10px;
     max-height:100%;
    max-width:100%;
 display: flex;
 flex-wrap: wrap;
-justify-content: space-between;
-align-items: center;
+justify-content: center;
+align-items: top;
     
 }
 
-.about-box{
-
-    background-color: aquamarine;
+.pages{
     border-radius: 10px;
-    height: 200px;
+    padding: 50px;
+    max-height:100%;
     max-width: 100%;
-    margin: 20px;
-    border: 0.5px solid rgb(0, 0, 0);
+    margin: 10px 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
+.about-box{
+
+    border-radius: 10px;
+    padding:50px;
+    max-height:100%;
+    max-width: 100%;
+    margin: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.social{
+    border-radius: 10px;
+    padding: 50px;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:left;
+    text-align: center;
+}
+
+.author{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+.socialbtn{
+    padding: 8px 25px;
+    border: none;
+    background: transparent;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+}
+
+.about-page a{
+    text-decoration:none;
+    color: white;
+    font-size: 19px;
+}
+.about-box p{
+    color: white;
+    font-size: 17px;
+}
+.about-box img{
+    margin-bottom: 10px;
+}
+
 
 
 
