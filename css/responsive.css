@@ -1,0 +1,48 @@
+@media(max-width:500px){
+    ul {
+    display: none;
+    }
+                    
+    #header-section{
+    max-height: 100%;
+                    
+    }
+    
+    @media(max-width:435px){
+    .main {
+    height: 650px;
+    }
+                    
+    #header-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    
+    } 
+    
+    @media(max-width:768px){
+        .left-sec{
+        margin-left: 20px;
+        }
+    }
+
+
+
+    
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
