@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <title>HOW IN 1</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -20,30 +21,22 @@
     <div class="container">
         <div id="header-section">
 
-            <!-- logo section -->
-            <div class="logo">
-                <a href=""><img src="img/logo1.png" alt="" width="150px"></a>
-            </div>
-
-
-            <!-- menu section -->
-            <div class="menu">
-
-
-                <!-- nav dision -->
-
-                <div class="nav">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="pages/about.html">About</a></li>
-                        <li><a href="pages/contact.html">Contact Us</a></li>
-                        <li><a href="#shop">Shop</a></li>
-                    </ul>
-                </div>
-
-            </div>
-
+            <nav>
+                <a href="index.html">
+                <img src="img/logo1.png" alt=""></a>
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-btn">
+                  <i class="fas fa-bars"></i>
+                </label>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="pages/about.html">About</a></li>
+                  <li><a href="pages/contact.html">Contact Us</a></li>
+                  <li><a href="#shop">Shop</a></li>
+                </ul>
+              </nav>
         </div>
+
     </div>
 
     <!-- main Division -->
@@ -57,14 +50,14 @@
             <p class="hero-para">Lorem ipsum dolor sit amet consectetur adipisicing <br> Dolorem, possimus alias
                 corrupti adipisci odio laborum a saepe esse.</p>
             <div class="btn-sec">
-                <button class="hero-btn">Call To Action</button>
-                <button class="hero-btn">Contact Us</button>
+                <a class="hero-btn" href="#ser">Services</a>
+               <a class="hero-btn" href="#touch">Contact Us</a>
             </div>
         </div>
 
     <!-- main service section -->
     </div>
-    <div class="service-sec">
+    <div id="ser" class="service-sec">
         <div class="service-head">
             <h2 class="service-head"> Our Services </h2>
         </div>
@@ -108,14 +101,13 @@
 
 <!-- get in touch main section -->
 
-            <div class="get-touch">
+            <div id="touch" class="get-touch">
                 <img src="img/avatar.jpg" alt="" class="avatar">
                     <p class="get-para">
                         Lets Get Started with Hastium Now
                     </p>
-                    <button class="get-btn">
-                        Contact Us
-                    </button>
+                
+                    <a  class="get-btn" href="pages/contact.html">Contact Us</a>
             
                 </div>
 
@@ -246,9 +238,9 @@
         <div class="about-page">
             <div class="pages">
                 <h3 class="author" > Pages </h3>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact Us</a>
+                <a href="index.html">Home</a>
+                <a href="pages/about.html">About</a>
+                <a href="pages/contact.html">Contact Us</a>
                 <a href="#">Privacy Policy</a>
                 <a href="#">Disclamer</a>
 
@@ -257,19 +249,21 @@
              <!-- fotter about box  -->
             <div class="about-box">  
                 <h3 class="author" > Author </h3>
-                <img src="img/logo1.png" alt="" class="img">
+              <a href="index.html"><img src="img/logo1.png" alt="" class="img"></a>
                 <p>This Is sagar i will share some <br>
                     intresting features of my website <br>
                      just go throught 
                 the website and rate it according to yourl. </p>
             </div>
+
  <!-- fotter soical   -->
             <div class="social">
                 <h3 class="author" > Social Media </h3>
-                <button class="socialbtn instagram"><i class="fa fa-instagram"></i> Instagram</button>
-                <button class="socialbtn  facebook"><i class="fa fa-facebook"></i> facebook</button>
-                <button class="socialbtn youtube"><i class="fa fa-youtube"></i> youtube</button>
-                <button class="socialbtn twitter"><i class="fa fa-twitter"></i> twitter</button>
+               <a target="_blank" href="https://www.instagram.com/"><button class="socialbtn instagram"><i class="fa fa-instagram"></i> Instagram</button>
+               </a>
+               <a target="_blank" href="https://www.facebook.com/"><button class="socialbtn  facebook"><i class="fa fa-facebook"></i> facebook</button></a>
+               <a target="_blank" href="https://www.youtube.com/"><button class="socialbtn youtube"><i class="fa fa-youtube"></i> youtube</button></a>
+               <a target="_blank" href="https://www.twitter.com/"> <button class="socialbtn twitter"><i class="fa fa-twitter"></i> twitter</button></a>
               <!--  <button class="instagram"><i class="fab fa-instagram"></i>Instagram</button> -->
             
                 
