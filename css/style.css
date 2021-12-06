@@ -465,6 +465,10 @@ align-items: top;
 
 /*footer bar */
 
+
+.space{
+    margin-right: 5px;
+}
 .footer-bar{
 	display :flex;
 	flex-wrap :wrap;
