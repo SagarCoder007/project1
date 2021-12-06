@@ -135,7 +135,8 @@ ul li a {
 /* left section para */
 
 .hero-para{
-    margin-bottom: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     font-size: 24px;
     color: white;
 }
@@ -225,6 +226,13 @@ border: none;
 cursor: pointer;
 transition: 0.3s;
 margin-top: 5px;
+}
+
+.vps{
+    margin: 10px 0px;
+}
+.vps-para{
+    margin-bottom:20px;
 }
 
 /*  BUTTON HOVER */
@@ -376,6 +384,8 @@ margin-top: 5px;
 
     color: white;
     font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-weight: bold;
 }
 
